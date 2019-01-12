@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/Assets/fonts.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.print.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="moment.js"></script>
+    
+    <script src="script.js"></script>
+    <script>
+    $(function() {
+
+      // page is now ready, initialize the calendar...
+
+      $('#calendar').fullCalendar({
+        // put your options and callbacks here
+      })
+
+    });
+    </script>
+    
+</head>
+
+<body>
+    <nav class="navbar is-transparent">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <img src="./Assets/Icons/DFA%20Wordmark_White.png" alt="Design For America at UIUC">
+            </a>
+            <div class="navbar-burger burger" data-target="navbarMobile">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="navbarMobile" class="navbar-menu">
+            <div class="navbar-start">
+                
+            </div>
+
+            <div class="navbar-end">
+                <a class="navbar-item" href="about.html">
+                    About
+                </a>
+                <a class="navbar-item" href="projects.html">
+                    Projects
+                </a>
+                <a class="navbar-item is-tab is-active" href="events.html">
+                    Events
+                </a>
+                <a class="navbar-item" href="members.html">
+                    Members
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="hero heroSmall events">
+        <div class="hero-body">
+            <div class="container">
+            <div class=" columns is-desktop">
+                <div class="column is-four-fifths">
+                    <h1 class="title has-text-white is-size-1">Events</h1>
+                    <h2 class="subtitle has-text-white">What we're up to.</h2>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <div class="has-text-centered has-text-primary">
+                <h1 class="is-size-1 has-text-weight-bold">Calendar</h1>
+                <div id='calendar'></div>
+            </div>    
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <div class="has-text-centered has-text-primary">
+            <h1 class="is-size-2 has-text-weight-bold title">Google Calendar</h1>
+            <h1 class="is-size-5 subtitle">Add our calendar to help stay on track.</h1><br>
+            <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=designforamerica.com_uurmniqu0b7q4l00jgj0rfv5ag%40group.calendar.google.com&amp;color=%23B1365F&amp;src=designforamerica.com_ea1k0cc7m3vf1l541e15m2htm0%40group.calendar.google.com&amp;color=%232F6309&amp;src=designforamerica.com_fs6lojvtqvf0sa9212kcqj7210%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FChicago" style="border-width:0" width="600" height="400" frameborder="0" scrolling="yes"></iframe>
+    </div> 
+        </div>
+    </section>
+
+
+
+</body>
+<footer class="has-text-centered has-text-primary">
+    <table style="width:100%; margin-top: 0px; margin-bottom: 0px">
+    <tr>
+        <td class="footerlineleft">
+        <hr noshade style="height:1.25px; color: #E84A27;background-color:#E84A27;">    
+        </td>
+        <td style="width:4%; vertical-align: middle; font-size: 20px; text-align: center; color: #E84A27;">
+        &#9733   
+        </td>
+        <td class="footerlineright">
+        <hr noshade style="height:1.25px; color: #E84A27;background-color:#E84A27;">    
+        </td>
+    </tr>
+</table>
+    <h1 class="is-size-4-tablet has-text-weight-bold">Design For America at UIUC</h1>
+    <h1 class="is-size-6-tablet has-text-weight-normal">uiuc@designforamerica.com</h1>
+    <h1 class="is-size-6-tablet has-text-weight-normal">© 2018-2019</h1>
+    <br>
+    <a class="has-text-primary" href="https://www.instagram.com/dfaillinois/?hl=en"><i class="fab fa-instagram fa-3x"></i></a>
+    <a class="has-text-primary" href="https://www.facebook.com/dfaillinois/"><i class="fab fa-facebook fa-3x" style="margin-left: 25px; margin-right: 25px;"></i></a>
+    <a class="has-text-primary" href="https://twitter.com/dfaillinois?lang=en"><i class="fab fa-twitter fa-3x"></i></a>
+    <br><br>
+    <h1 class="is-size-6-tablet has-text-weight-normal"><a class="has-text-primary" href="/index.html">Home</a> | <a class="has-text-primary" href="https://tinyurl.com/dfa-uiuc-app">Apply Today</a> | <a class="has-text-primary" href="mailto:uiuc@designforamerica.com" target="_top">Contact</a></h1>
+</footer>
+</html>
