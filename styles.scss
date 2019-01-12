@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('/Assets/fonts.css');
+
+// Set your brand colors
+$blue: #13294b;
+$orange: #E84A27;
+
+// Update Bulma's global variables
+$family-sans-serif: "Helvetica Neue", "SF Display", "Montserrat", sans-serif;
+$primary: $blue;
+$info: $orange;
+$link: hsl(204, 86%, 53%);
+$navbar-background-color: $blue;
+$body-background-color: white;
+$button-border-width: 2px;
+$navbar-height: 4rem;
+$navbar-item-hover-color: $orange;
+$navbar-item-color: white;
+$navbar-item-active-color: $orange;
+$navbar-tab-active-color: $orange;
+$navbar-tab-active-border-bottom-color: $orange;
+
+
+// Update some of Bulma's component variables
+
+
+// Import only what you need from Bulma
+@import "./bulma/sass/utilities/_all.sass";
+@import "./bulma/sass/base/_all.sass";
+@import "./bulma/sass/elements/button.sass";
+@import "./bulma/sass/elements/container.sass";
+@import "./bulma/sass/elements/form.sass";
+@import "./bulma/sass/elements/title.sass";
+@import "./bulma/sass/components/navbar.sass";
+@import "./bulma/sass/layout/hero.sass";
+@import "./bulma/sass/layout/section.sass";
+
+
+.container {
+    @media only screen and (max-width: 1087px) {
+        padding-left: 50px;
+        padding-right: 50px;
+        
+    }
+    @media only screen and (max-width: 768px) {
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+}
+.heroMain.hero-body {
+    padding-top: 150px;
+        @media only screen and (max-width: 1088px) {
+        padding-left: 20px;
+        padding-top: 75px;   
+    }
+    @media only screen and (max-width: 768px) {
+        padding-left: 20px;
+        padding-top: 75px;   
+    }
+}
+.heroMain {
+    background-image: url("./Assets/Photos/DFA_SallyRyan_Day2_228.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(19,41,75,0.8);
+    /*background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);*/
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+.heroSmall {
+    background-image: url("./Assets/Photos/DFA_SallyRyan_Day2_228.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(19,41,75,0.7);
+    /*background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);*/
+    margin-bottom: 0px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    &.about {
+        background-image: url("./Assets/Photos/IMG_8655.JPG");
+    }
+    &.events {
+        background-image: url("./Assets/Photos/IMG_8599.JPG");
+    }
+    &.projects {
+        background-image: url("./Assets/Photos/DSC_9264.jpg");
+    }
+}
+.sectionImage {
+    padding: 0px;
+    &figure,img {
+        height: 400px;
+        object-fit: cover;
+    }
+}
+.section {
+    
+}
+.sectionHeader {
+     font-family: SF Text; 
+    font-weight: 500;
+}
+.sectionTiles {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: $blue;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/*#sectionHero {
+    background-image: url(./Assets/Photos/DFA_SallyRyan_Day2_228.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.7);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}*/
+.projectSpotlight {
+    background-color: rgb(244,244,244);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.projectSpotlightCard {
+    padding-right: 50px;
+    padding-left: 50px;
+    @media only screen and (max-width: 1200px) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+.slick-next {
+    position: absolute;
+    top: 250px;
+    right: 20px;
+    z-index: 1000;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    opacity: 0.5;
+    font-size: 30px;
+    &:hover {
+        opacity: 1;
+    }
+}
+.slick-prev {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    z-index: 1000;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    opacity: 0.5;
+    font-size: 30px;
+    &:hover {
+        opacity: 1;
+    }
+}
+.slick-slide {
+    margin: 0 20px;
+}
+
+footer {
+    background-color: rgb(244,244,244);
+    padding: 20px 50px 20px 50px;
+    margin-top: 30px;
+    @media only screen and (max-width: 768px) {
+        padding: 20px 20px 20px 20px;
+    }
+}
+.tileImage {
+    height: 600px;
+    @media only screen and (max-width: 768px) {
+        height: 300px;
+    }
+}
+.tileImageIndex {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &.image1 {
+        background-image: url(Assets/Photos/DFA_SallyRyan_Day1_83.jpg);
+    }
+    &.image2 {
+        background-image: url(Assets/Photos/liz-gerber_orig.jpg);
+    }
+    &.image3 {
+        background-image: url(Assets/Photos/20170805_DFA_JWW3253.jpg);
+    }
+    
+}
+.sectionSideImage {
+    position: relative;
+    height: 100%;
+    background-image: url(Assets/Photos/DFA_SallyRyan_Day2_228.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.execProfile {
+    padding: 10px 10px 10px 10px;
+    & img {
+        border-radius: 25px;
+    }
+}
+#tab_container .container_item {
+  display: none;
+}
+
+#tab_container .container_item.is-active {
+  display: block;
+}
+
