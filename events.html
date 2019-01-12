@@ -10,24 +10,15 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="./Assets/fonts.css">
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.print.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="moment.js"></script>
+    <link rel="stylesheet" href="fullcalendar-3.10.0/fullcalendar.min.css">
+    <script src="fullcalendar-3.10.0/fullcalendar.min.js"></script>
+    <script src="fullcalendar-3.10.0/lib/moment.min.js"></script>
+    <script src="fullcalendar-3.10.0/lib/jquery.min.js"></script>
+    <script src="fullcalendar-3.10.0/fullcalendar.min.js"></script>
+    <script type='text/javascript' src='fullcalendar-3.10.0/gcal.min.js'></script>
     
     <script src="script.js"></script>
-    <script>
-    $(function() {
 
-      // page is now ready, initialize the calendar...
-
-      $('#calendar').fullCalendar({
-        // put your options and callbacks here
-      })
-
-    });
-    </script>
     
 </head>
 
@@ -59,7 +50,7 @@
                 <a class="navbar-item is-tab is-active" href="events.html">
                     Events
                 </a>
-                <a class="navbar-item" href="members.html">
+                <a class="navbar-item" href="members-encrypted.html">
                     Members
                 </a>
             </div>
@@ -82,13 +73,13 @@
     <section class="section">
         <div class="container">
             <div class="has-text-centered has-text-primary">
-                <h1 class="is-size-1 has-text-weight-bold">Calendar</h1>
+                <h1 class="is-size-1 has-text-weight-bold">Calendar</h1><br>
                 <div id='calendar'></div>
             </div>    
         </div>
     </section>
     
-    <section class="section">
+    <!--<section class="section">
         <div class="container">
             <div class="has-text-centered has-text-primary">
             <h1 class="is-size-2 has-text-weight-bold title">Google Calendar</h1>
@@ -97,8 +88,26 @@
     </div> 
         </div>
     </section>
+-->
+    <script>
+    $(function() {
 
+      // page is now ready, initialize the calendar...
 
+      $('#calendar').fullCalendar({
+        // put your options and callbacks here
+          defaultView: 'month',
+          header: {
+              center: 'month,agendaDay,listMonth',
+          },
+          googleCalendarApiKey: 'AIzaSyA_hf_r57u0fxXBpJpxtUFwm3OIP7Ul0eY',
+                    events: {
+                        googleCalendarId: 'designforamerica.com_fs6lojvtqvf0sa9212kcqj7210@group.calendar.google.com'
+                    }
+      })
+
+    });
+    </script>
 
 </body>
 <footer class="has-text-centered has-text-primary">
