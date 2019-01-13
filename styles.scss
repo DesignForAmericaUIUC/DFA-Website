@@ -191,13 +191,22 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     &.image1 {
-        background-image: url(Assets/Photos/DFA_SallyRyan_Day1_83.jpg);
+        background-image: url("./Assets/Photos/DFA_SallyRyan_Day1_83.jpg");
     }
     &.image2 {
-        background-image: url(Assets/Photos/liz-gerber_orig.jpg);
+        background-image: url(./Assets/Photos/liz-gerber_orig.jpg);
     }
     &.image3 {
-        background-image: url(Assets/Photos/20170805_DFA_JWW3253.jpg);
+        background-image: url(./Assets/Photos/20170805_DFA_JWW3253.jpg);
+    }
+    &.image4 {
+        background-image: url(./Assets/Photos/IMG_8662.JPG);
+    }
+    &.image5 {
+        background-image: url(./Assets/Photos/IMG_8657.JPG);
+    }
+    &.image6 {
+        background-image: url(Assets/Photos/IMG_8546.JPG);
     }
     
 }
