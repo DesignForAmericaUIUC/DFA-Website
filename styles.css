@@ -5343,16 +5343,6 @@ footer {
 
 /* line 225, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .membersTools {
-  background-color: #13294b; }
-  @media only screen and (min-width: 768px) {
-    /* line 225, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
-    .membersTools {
-      padding-left: 100px;
-      padding-right: 100px; } }
-  @media only screen and (min-width: 1024px) {
-    /* line 225, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
-    .membersTools {
-      padding-left: 300px;
-      padding-right: 300px; } }
+  background-color: #f4f4f4; }
 
 /*# sourceMappingURL=styles.css.map */
