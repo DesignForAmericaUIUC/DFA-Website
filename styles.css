@@ -5319,13 +5319,13 @@ footer {
     background-image: url(./Assets/Photos/20170805_DFA_JWW3253.jpg); }
   /* line 202, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image4 {
-    background-image: url(./Assets/Photos/IMG_8662.JPG); }
+    background-image: url("./Assets/Photos/IMG_8662.JPG"); }
   /* line 205, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image5 {
-    background-image: url(./Assets/Photos/IMG_8657.JPG); }
+    background-image: url("./Assets/Photos/IMG_8657.JPG"); }
   /* line 208, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image6 {
-    background-image: url(Assets/Photos/IMG_8546.JPG); }
+    background-image: url("./Assets/Photos/IMG_8546.JPG"); }
 
 /* line 213, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .sectionSideImage {
