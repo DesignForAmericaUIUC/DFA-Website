@@ -3,33 +3,33 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Projects</title>
+    
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="./Assets/fonts.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.1/bulma-carousel/dist/css/bulma-carousel.min.css">
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.1/bulma-carousel/dist/js/bulma-carousel.min.js"></script>
     <script src="script.js"></script>
- 
     <script>
         $(document).ready(function() {
-          $('#tab_header ul li.item').on('click', function() {
+            $('#tab_header ul li.item').on('click', function() {
             var number = $(this).data('option');
             $('#tab_header ul li.item').removeClass('is-active');
             $(this).addClass('is-active');
             $('#tab_container .container_item').removeClass('is-active');
             $('div[data-item="' + number + '"]').addClass('is-active');
-          });
-
+            });
         });
     </script>
-    
 </head>
-
 <body>
     <nav class="navbar is-transparent">
         <div class="navbar-brand">
@@ -68,18 +68,19 @@
     <section class="hero heroSmall projects">
         <div class="hero-body">
             <div class="container">
-            <div class=" columns is-desktop">
-                <div class="column is-four-fifths">
-                    <h1 class="title has-text-white is-size-1">Projects</h1>
-                    <h2 class="subtitle has-text-white">What we've been working on.</h2>
+                <div class=" columns is-desktop">
+                    <div class="column is-four-fifths">
+                        <h1 class="title has-text-white is-size-1">Projects</h1>
+                        <h2 class="subtitle has-text-white">What we've been working on.</h2>
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
     </section>
     
-    <section class="section projectSpotlight" style="padding-left: 0px;padding-right: 0px;">
-        <h1 class="subtitle has-text-info has-text-centered sectionHeader">PROJECT SPOTLIGHT</h1><br>
+    <section class="section projectSpotlight">
+        <h1 class="subtitle has-text-info has-text-centered sectionHeader">PROJECT SPOTLIGHT</h1>
+        <br>
         <div class="mycarousel">
             <div class="projectSpotlightProject">
                 <div class="projectSpotlightCard">
@@ -88,7 +89,6 @@
                             <img src="https://i2.wp.com/designforamerica.com/wp-content/uploads/2018/12/IMG_9514.jpg?w=2400">
                         </figure>
                     </header>
-
                     <div class="card-content">
                         <div class="content">
                             <a href="http://designforamerica.com/2018/12/18/humana-and-dfa-reimagine-healthcare-for-senior-patients/"><h1 class="is-size-3 is-size-4-mobile">Humana National Project</h1></a>
@@ -105,7 +105,6 @@
                             <img src="./Assets/Photos/DFA_SallyRyan_Day2_159.jpg">
                         </figure>
                     </header>
-
                     <div class="card-content">
                         <div class="content">
                             <a href="projects.html"><h1 class="is-size-3 is-size-4-mobile">YMCA National Project</h1></a>
@@ -122,7 +121,6 @@
                             <img src="https://i2.wp.com/designforamerica.com/wp-content/uploads/2018/12/Screen-Shot-2018-12-13-at-3.27.03-PM.png?w=1562">
                         </figure>
                     </header>
-
                     <div class="card-content">
                         <div class="content">
                             <h1 class="is-size-3 is-size-4-mobile">Food Security for College Students</h1>
@@ -139,7 +137,6 @@
                             <img src="./Assets/Photos/DFA_SallyRyan_Day2_154.jpg">
                         </figure>
                     </header>
-
                     <div class="card-content">
                         <div class="content">
                             <h1 class="is-size-3 is-size-4-mobile">Senior Financial Literacy Project</h1>
@@ -156,7 +153,6 @@
                             <img src="./Assets/Photos/DFA_SallyRyan_Day1_5.jpg">
                         </figure>
                     </header>
-
                     <div class="card-content">
                         <div class="content">
                             <h1 class="is-size-3 is-size-4-mobile">Edison Project</h1>
@@ -169,1368 +165,1144 @@
         </div>
     </section>
     
-    
     <section class="section">
         <div class="container">
-        <div class="columns">
-            <div class="column is-four-fifths">
-                <h1 class="subtitle has-text-primary sectionHeader">PREVIOUS PROJECTS</h1><br>
-                <h1 class="title has-text-info is-size-2">Project Archive</h1>
-                <h1 style="font-size: 1.2rem;color:black;">Please note: this section is still a work in progress. A completed archive will be uploaded soon.</h1>
+            <div class="columns">
+                <div class="column is-four-fifths">
+                    <h1 class="subtitle has-text-primary sectionHeader">PREVIOUS PROJECTS</h1>
+                    <br>
+                    <h1 class="title has-text-info is-size-2">Project Archive</h1>
+                    <h1 style="font-size: 1.2rem;color:black;">Please note: this section is still a work in progress. A completed archive will be uploaded soon.</h1>
+                </div>
+                <div class="column is-one-fifth is-hidden-mobile">
+                    <i class="fas fa-archive fa-10x is-pulled-right"></i>
+                </div>
             </div>
-            <div class="column is-one-fifth is-hidden-mobile">
-                <i class="fas fa-archive fa-10x is-pulled-right"></i>
+            <div class="tabs" id="tab_header">
+                <ul>
+                    <li class="item is-active" data-option="1"><a>2019-2018</a></li>
+                    <li class="item" data-option="2"><a>2018-2017</a></li>
+                    <li class="item" data-option="3"><a>2017-2016</a></li>
+                    <li class="item" data-option="4"><a>2016-2015</a></li>
+                    <li class="item" data-option="5"><a>2015-2014</a></li>
+                    <li class="item" data-option="6"><a>2014-2013</a></li>
+                    <li class="item" data-option="7"><a>2013-2012</a></li>
+                </ul>
             </div>
-        </div>
-        
-        <div class="tabs" id="tab_header">
-            <ul>
-                <li class="item is-active" data-option="1"><a>2019-2018</a></li>
-                <li class="item" data-option="2"><a>2018-2017</a></li>
-                <li class="item" data-option="3"><a>2017-2016</a></li>
-                <li class="item" data-option="4"><a>2016-2015</a></li>
-                <li class="item" data-option="5"><a>2015-2014</a></li>
-                <li class="item" data-option="6"><a>2014-2013</a></li>
-                <li class="item" data-option="7"><a>2013-2012</a></li>
-            </ul>
-        </div>
-        <div class="" id="tab_container">
-            <div class="container_item is-active" data-item="1">
-                <div class="columns is-multiline">
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="https://i2.wp.com/designforamerica.com/wp-content/uploads/2018/12/IMG_9514.jpg?w=2400" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="https://i1.wp.com/designforamerica.com/wp-content/uploads/2018/12/Humana-all.jpg?w=2400" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="https://i0.wp.com/designforamerica.com/wp-content/uploads/2018/12/IMG_9444.jpg?w=2400" alt="" width="640" height="310" />
+            <div class="" id="tab_container">
+                <div class="container_item is-active" data-item="1">
+                    <div class="columns is-multiline">
+                        <div class="column is-half">
+                            <div class="box card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="https://i2.wp.com/designforamerica.com/wp-content/uploads/2018/12/IMG_9514.jpg?w=2400" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="https://i1.wp.com/designforamerica.com/wp-content/uploads/2018/12/Humana-all.jpg?w=2400" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="https://i0.wp.com/designforamerica.com/wp-content/uploads/2018/12/IMG_9444.jpg?w=2400" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Humana National Project</p>
+                                    <p class="subtitle is-6">Fall 2018</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Humana National Project</p>
-                                <p class="subtitle is-6">Fall 2018</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
                         </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                        <div class="column is-half">
+                            <div class="box card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Senior Fraud Prevention</p>
+                                    <p class="subtitle is-6">Fall 2018 - Spring 2019</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: In Progress</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Senior Fraud Prevention</p>
-                                <p class="subtitle is-6">Fall 2018 - Spring 2019</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: In Progress</p>
-                            </div>
-                          </div>
                         </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                        <div class="column is-half">
+                            <div class="box card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Accessibility Project</p>
+                                    <p class="subtitle is-6">Fall 2018</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Paused</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Accessibility Project</p>
-                                <p class="subtitle is-6">Fall 2018</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Paused</p>
-                            </div>
-                          </div>
                         </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                        <div class="column is-half">
+                            <div class="box card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Edison Project</p>
+                                    <p class="subtitle is-6">Fall 2018</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Paused</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Edison Project</p>
-                                <p class="subtitle is-6">Fall 2018</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Paused</p>
-                            </div>
-                          </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="container_item" data-item="2"> 
-                <div class="columns is-multiline">
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day2_154.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day2_154.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                <div class="container_item" data-item="2"> 
+                    <div class="columns is-multiline">
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day2_154.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day2_154.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Fiat Chrysler National Project</p>
+                                    <p class="subtitle is-6">Fall 2018</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Fiat Chrysler National Project</p>
-                                <p class="subtitle is-6">Fall 2018</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
                         </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day2_154.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day2_154.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Campus Involvement</p>
+                                    <p class="subtitle is-6">Fall 2017-2018</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Campus Involvement</p>
-                                <p class="subtitle is-6">Fall 2017-2018</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
                         </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day2_154.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day2_154.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Senior Fraud</p>
+                                    <p class="subtitle is-6">Fall 2018</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Senior Fraud</p>
-                                <p class="subtitle is-6">Fall 2018</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
                         </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">YMCA</p>
+                                    <p class="subtitle is-6">Fall 2017</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">YMCA</p>
-                                <p class="subtitle is-6">Fall 2017</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="container_item" data-item="3">
-                <div class="columns is-multiline">
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_83.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                <div class="container_item" data-item="3">
+                    <div class="columns is-multiline">
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_83.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Waste Management</p>
+                                    <p class="subtitle is-6">Fall 2016</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Waste Management</p>
-                                <p class="subtitle is-6">Fall 2016</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
                         </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Food Waste</p>
+                                    <p class="subtitle is-6">Fall 2016</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Food Waste</p>
-                                <p class="subtitle is-6">Fall 2016</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
                         </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Campus Security</p>
+                                    <p class="subtitle is-6">Fall 2016</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Campus Security</p>
-                                <p class="subtitle is-6">Fall 2016</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
                         </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Electric Waste</p>
+                                    <p class="subtitle is-6">Fall 2016</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Electric Waste</p>
-                                <p class="subtitle is-6">Fall 2016</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="container_item" data-item="4"> 
-            <div class="columns is-multiline">
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day2_159.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                <div class="container_item" data-item="4"> 
+                    <div class="columns is-multiline">
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day2_159.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">TherapAlz</p>
+                                    <p class="subtitle is-6">Fall 2015</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">TherapAlz</p>
-                                <p class="subtitle is-6">Fall 2015</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
                         </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Technology Overuse</p>
+                                    <p class="subtitle is-6">Fall 2015</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Technology Overuse</p>
-                                <p class="subtitle is-6">Fall 2015</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
                         </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Campus Security</p>
+                                    <p class="subtitle is-6">Fall 2015</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Campus Security</p>
-                                <p class="subtitle is-6">Fall 2015</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
                         </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Electric Waste</p>
+                                    <p class="subtitle is-6">Fall 2015</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Electric Waste</p>
-                                <p class="subtitle is-6">Fall 2015</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
                         </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Mental Health</p>
+                                    <p class="subtitle is-6">Fall 2015</p>
+                                  </div>
                                 </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
                                 </div>
                               </div>
                             </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Mental Health</p>
-                                <p class="subtitle is-6">Fall 2015</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
                         </div>
                     </div>
                 </div>
+                <div class="container_item" data-item="5"> 
+                    <div class="columns is-multiline">
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos//20170805_DFA_JWW3253.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Alzheimers Caregivers</p>
+                                    <p class="subtitle is-6">Fall 2014</p>
+                                  </div>
+                                </div>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status:</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos//20170805_DFA_JWW3253.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Walking School Bus</p>
+                                    <p class="subtitle is-6">Fall 2014</p>
+                                  </div>
+                                </div>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status:</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos//20170805_DFA_JWW3253.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Urban Flooding</p>
+                                    <p class="subtitle is-6">Fall 2014</p>
+                                  </div>
+                                </div>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status:</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="container_item" data-item="6"> 
+                    <div class="columns is-multiline">
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day2_228.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Ederly Drivers - Chrysler National Project</p>
+                                    <p class="subtitle is-6">Fall 2013</p>
+                                  </div>
+                                </div>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Electric Waster</p>
+                                    <p class="subtitle is-6">Fall 2013</p>
+                                  </div>
+                                </div>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Natural Disasters</p>
+                                    <p class="subtitle is-6">Fall 2013</p>
+                                  </div>
+                                </div>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="container_item" data-item="7"> 
+                    <div class="columns is-multiline">
+                        <div class="column is-half">
+                            <div class="card">
+                              <div class="card-image">
+                                <div class='carousel carousel-animated carousel-animate-slide'>
+                                  <div class='carousel-container'>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/IMG_8583.JPG" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                    <div class='carousel-item has-background is-active'>
+                                      <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
+                                    </div>
+                                  </div>
+                                  <div class="carousel-navigation is-overlay">
+                                    <div class="carousel-nav-left">
+                                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="carousel-nav-right">
+                                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <div class="media">
+                                  <div class="media-content">
+                                    <p class="title is-4">Project 1</p>
+                                    <p class="subtitle is-6">Fall 2012</p>
+                                  </div>
+                                </div>
+                                <div class="content">
+                                    <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
+                                    <p>Community Partners: Humana</p>
+                                    <p>Team Members, Contact Information</p>
+                                    <br>
+                                    <p>Status: Completed</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
             </div>
-            <div class="container_item" data-item="5"> 
-                <div class="columns is-multiline">
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos//20170805_DFA_JWW3253.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                              </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                                </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                </div>
-                              </div>
-                            </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Alzheimers Caregivers</p>
-                                <p class="subtitle is-6">Fall 2014</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status:</p>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos//20170805_DFA_JWW3253.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                              </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                                </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                </div>
-                              </div>
-                            </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Walking School Bus</p>
-                                <p class="subtitle is-6">Fall 2014</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status:</p>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos//20170805_DFA_JWW3253.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                              </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                                </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                </div>
-                              </div>
-                            </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Urban Flooding</p>
-                                <p class="subtitle is-6">Fall 2014</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status:</p>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-            <div class="container_item" data-item="6"> 
-                <div class="columns is-multiline">
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day2_228.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                              </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                                </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                </div>
-                              </div>
-                            </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Ederly Drivers - Chrysler National Project</p>
-                                <p class="subtitle is-6">Fall 2013</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                              </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                                </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                </div>
-                              </div>
-                            </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Electric Waster</p>
-                                <p class="subtitle is-6">Fall 2013</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                              </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                                </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                </div>
-                              </div>
-                            </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Natural Disasters</p>
-                                <p class="subtitle is-6">Fall 2013</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-            <div class="container_item" data-item="7"> 
-                <div class="columns is-multiline">
-                    <div class="column is-half">
-                        <div class="card">
-                          <div class="card-image">
-                            <div class='carousel carousel-animated carousel-animate-slide'>
-                              <div class='carousel-container'>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/IMG_8583.JPG" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                                <div class='carousel-item has-background is-active'>
-                                  <img class="is-background" src="./Assets/Photos/DFA_SallyRyan_Day1_31.jpg" alt="" width="640" height="310" />
-                                </div>
-                              </div>
-                              <div class="carousel-navigation is-overlay">
-                                <div class="carousel-nav-left">
-                                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                                </div>
-                                <div class="carousel-nav-right">
-                                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                </div>
-                              </div>
-                            </div>
-
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-content">
-                                <p class="title is-4">Project 1</p>
-                                <p class="subtitle is-6">Fall 2012</p>
-                              </div>
-                            </div>
-
-                            <div class="content">
-                                <p>Challenge: How can we enable seniors with complex conditions to use digital technologies in managing their health?</p>
-                                <p>Community Partners: Humana</p>
-                                <p>Team Members, Contact Information</p>
-
-                              <br>
-                              <p>Status: Completed</p>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </div>
-            
         </div>
     </section>
-    
-    
-    
-<!--    <section class="section">
-        <div class="container">
-            <div class="columns is-multiline">
-                <div class="column is-one-third">
-                    <div class="card">
-                      <div class="card-image">
-                        <figure class="image is-4by3">
-                          <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                        </figure>
-                      </div>
-                      <div class="card-content">
-                        <div class="media">
-                          <div class="media-content">
-                            <p class="title is-4">FCA Project</p>
-                            <p class="subtitle is-6">2017-2018</p>
-                          </div>
-                        </div>
 
-                        <div class="content">
-                          Project Description. Click for more.
-                          
-                          <br>
-                          <p>Status: Completed</p>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                <div class="column is-one-third">
-                    <div class="card">
-                      <div class="card-image">
-                        <figure class="image is-4by3">
-                          <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                        </figure>
-                      </div>
-                      <div class="card-content">
-                        <div class="media">
-                          <div class="media-content">
-                            <p class="title is-4">FCA Project</p>
-                            <p class="subtitle is-6">2017-2018</p>
-                          </div>
-                        </div>
-
-                        <div class="content">
-                          Project Description. Click for more.
-                          
-                          <br>
-                          <p>Status: Completed</p>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                <div class="column is-one-third">
-                    <div class="card">
-                      <div class="card-image">
-                        <figure class="image is-4by3">
-                          <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                        </figure>
-                      </div>
-                      <div class="card-content">
-                        <div class="media">
-                          <div class="media-content">
-                            <p class="title is-4">FCA Project</p>
-                            <p class="subtitle is-6">2017-2018</p>
-                          </div>
-                        </div>
-
-                        <div class="content">
-                          Project Description. Click for more.
-                          
-                          <br>
-                          <p>Status: Completed</p>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                <div class="column is-one-third">
-                    <div class="card">
-                      <div class="card-image">
-                        <figure class="image is-4by3">
-                          <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                        </figure>
-                      </div>
-                      <div class="card-content">
-                        <div class="media">
-                          <div class="media-content">
-                            <p class="title is-4">FCA Project</p>
-                            <p class="subtitle is-6">2017-2018</p>
-                          </div>
-                        </div>
-
-                        <div class="content">
-                          Project Description. Click for more.
-                          
-                          <br>
-                          <p>Status: Completed</p>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                <div class="column is-one-third">
-                    <div class="card">
-                      <div class="card-image">
-                        <figure class="image is-4by3">
-                          <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                        </figure>
-                      </div>
-                      <div class="card-content">
-                        <div class="media">
-                          <div class="media-content">
-                            <p class="title is-4">FCA Project</p>
-                            <p class="subtitle is-6">2017-2018</p>
-                          </div>
-                        </div>
-
-                        <div class="content">
-                          Project Description. Click for more.
-                          
-                          <br>
-                          <p>Status: Completed</p>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                <div class="column is-one-third">
-                    <div class="card">
-                      <div class="card-image">
-                        <figure class="image is-4by3">
-                          <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                        </figure>
-                      </div>
-                      <div class="card-content">
-                        <div class="media">
-                          <div class="media-content">
-                            <p class="title is-4">FCA Project</p>
-                            <p class="subtitle is-6">2017-2018</p>
-                          </div>
-                        </div>
-
-                        <div class="content">
-                          Project Description. Click for more.
-                          
-                          <br>
-                          <p>Status: Completed</p>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>-->
-
- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script> 
-<script type="text/javascript" src="slick/slick.min.js"></script>
-    
-<script type="text/javascript">
-    $(document).ready(function(){
-      $('.mycarousel').slick({
-          arrows: true,
-          dots: false,
-          infinite: false,
-          speed: 300,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          centerMode: true,
-          centerPadding: '300px',
-          prevArrow: '<a class="button slick-prev"><i class="fas fa-arrow-circle-left"></i></a>',
-          nextArrow: '<a class="button slick-next"><i class="fas fa-arrow-circle-right"></i></a>',
-          responsive: [
-            {
-              breakpoint: 1024,
-              settings: {
-                centerPadding: '150px',
-              }
-            },
-            {
-              breakpoint: 769,
-              settings: {
-                centerPadding: '50px',
-              }
-            }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
-          ]
-      });
-        
-    
-    });
-</script>
-<script>
-    
-    $(document).ready(function(){
-         var carousels = bulmaCarousel.attach(); // carousels now contains an array of all Carousel instances
-     });
-</script>
-
-
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script> 
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.mycarousel').slick({
+                arrows: true,
+                dots: false,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: '300px',
+                prevArrow: '<a class="button slick-prev"><i class="fas fa-arrow-circle-left"></i></a>',
+                nextArrow: '<a class="button slick-next"><i class="fas fa-arrow-circle-right"></i></a>',
+                responsive: [
+                    {
+                    breakpoint: 1024,
+                    settings: {
+                        centerPadding: '150px',
+                        }
+                    },
+                    {
+                        breakpoint: 769,
+                        settings: {
+                            centerPadding: '50px',
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            var carousels = bulmaCarousel.attach(); // carousels now contains an array of all Carousel instances
+         });
+    </script>
 </body>
 <footer class="has-text-centered has-text-primary">
     <table style="width:100%; margin-top: 0px; margin-bottom: 0px">
-    <tr>
-        <td class="footerlineleft">
-        <hr noshade style="height:1.25px; color: #E84A27;background-color:#E84A27;">    
-        </td>
-        <td style="width:4%; vertical-align: middle; font-size: 20px; text-align: center; color: #E84A27;">
-        &#9733   
-        </td>
-        <td class="footerlineright">
-        <hr noshade style="height:1.25px; color: #E84A27;background-color:#E84A27;">    
-        </td>
-    </tr>
-</table>
+        <tr>
+            <td class="footerlineleft">
+                <hr noshade style="height:1.25px; color: #E84A27;background-color:#E84A27;"> 
+            </td>
+            <td style="width:4%; vertical-align: middle; font-size: 20px; text-align: center; color: #E84A27;">
+                &#9733   
+            </td>
+            <td class="footerlineright">
+                <hr noshade style="height:1.25px; color: #E84A27;background-color:#E84A27;">
+            </td>
+        </tr>
+    </table>
     <h1 class="is-size-4-tablet has-text-weight-bold">Design For America at UIUC</h1>
+    <h1 class="is-size-6-tablet has-text-weight-normal">A 501c(3) Non-Profit</h1>
     <h1 class="is-size-6-tablet has-text-weight-normal">uiuc@designforamerica.com</h1>
     <h1 class="is-size-6-tablet has-text-weight-normal">© 2018-2019</h1>
     <br>
-    <a class="has-text-primary" href="https://www.instagram.com/dfaillinois/?hl=en"><i class="fab fa-instagram fa-3x"></i></a>
-    <a class="has-text-primary" href="https://www.facebook.com/dfaillinois/"><i class="fab fa-facebook fa-3x" style="margin-left: 25px; margin-right: 25px;"></i></a>
-    <a class="has-text-primary" href="https://twitter.com/dfaillinois?lang=en"><i class="fab fa-twitter fa-3x"></i></a>
+    <a class="has-text-primary" href="https://www.instagram.com/dfaillinois/?hl=en">
+        <i class="fab fa-instagram fa-3x"></i>
+    </a>
+    <a class="has-text-primary" href="https://www.facebook.com/dfaillinois/">
+        <i class="fab fa-facebook fa-3x" style="margin-left: 25px; margin-right: 25px;"></i>
+    </a>
+    <a class="has-text-primary" href="https://twitter.com/dfaillinois?lang=en">
+        <i class="fab fa-twitter fa-3x"></i>
+    </a>
     <br><br>
-    <h1 class="is-size-6-tablet has-text-weight-normal"><a class="has-text-primary" href="/index.html">Home</a> | <a class="has-text-primary" href="https://tinyurl.com/dfa-uiuc-app">Apply Today</a> | <a class="has-text-primary" href="mailto:uiuc@designforamerica.com" target="_top">Contact</a></h1>
+    <h1 class="is-size-6-tablet has-text-weight-normal">
+        <a class="has-text-primary" href="/index.html">Home</a> | 
+        <a class="has-text-primary" href="about.html">About</a> | 
+        <a class="has-text-primary" href="projects.html" target="_top">Projects</a> | 
+        <a class="has-text-primary" href="events.html" target="_top">Events</a> | 
+        <a class="has-text-primary" href="members-encrypted.html">Members</a>
+    </h1>
 </footer>
 </html>
