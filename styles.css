@@ -5150,31 +5150,34 @@ html, body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch; }
 
 @media only screen and (max-width: 1087px) {
-  /* line 49, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 51, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .container {
     padding-left: 50px;
     padding-right: 50px; } }
 
 @media only screen and (max-width: 768px) {
-  /* line 49, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 51, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .container {
     padding-left: 10px;
     padding-right: 10px; } }
 
-/* line 61, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 63, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 footer {
   background-color: #f4f4f4;
   padding: 20px 50px 20px 50px;
   margin-top: 30px; }
   @media only screen and (max-width: 768px) {
-    /* line 61, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+    /* line 63, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
     footer {
       padding: 20px 20px 20px 20px; } }
 
-/* line 70, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 72, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .heroMain {
   background-image: url("./Assets/Photos/DFA_SallyRyan_Day2_228.jpg");
   background-position: center;
@@ -5185,20 +5188,20 @@ footer {
     background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);*/
   padding-bottom: 20px;
   margin-bottom: 40px; }
-  /* line 80, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 82, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .heroMain .hero-body {
     padding-top: 75px; }
     @media only screen and (max-width: 1088px) {
-      /* line 80, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+      /* line 82, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
       .heroMain .hero-body {
         padding-left: 20px; } }
     @media only screen and (max-width: 768px) {
-      /* line 80, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+      /* line 82, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
       .heroMain .hero-body {
         padding-left: 20px;
         padding-top: 30px; } }
 
-/* line 92, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 94, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .heroSmall {
   background-image: url("./Assets/Photos/DFA_SallyRyan_Day2_228.jpg");
   background-position: center;
@@ -5210,20 +5213,20 @@ footer {
   margin-bottom: 0px;
   padding-top: 100px;
   padding-bottom: 20px; }
-  /* line 103, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 105, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .heroSmall.about {
     background-image: url("./Assets/Photos/IMG_8655.JPG"); }
-  /* line 106, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 108, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .heroSmall.events {
     background-image: url("./Assets/Photos/IMG_8599.JPG"); }
-  /* line 109, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 111, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .heroSmall.projects {
     background-image: url("./Assets/Photos/DSC_9264.jpg"); }
-  /* line 112, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 114, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .heroSmall.members {
     background-image: url("./Assets/Photos/DFA_SallyRyan_Day1_31.jpg"); }
 
-/* line 118, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 120, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .section.sectionTiles {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -5231,35 +5234,35 @@ footer {
   padding-left: 0px;
   padding-right: 0px; }
 
-/* line 125, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 127, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .section.sectionImage {
   padding: 0px; }
-  /* line 127, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 129, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .section.sectionImagefigure, .section.sectionImage img {
     height: 400px;
     object-fit: cover; }
 
-/* line 134, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 136, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .sectionHeader {
   font-family: SF Text;
   font-weight: 500; }
 
-/* line 139, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 141, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .projectSpotlight {
   background-color: #f4f4f4;
   padding: 50px 0px 50px 0px; }
 
-/* line 143, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 145, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .projectSpotlightCard {
   padding-right: 50px;
   padding-left: 50px; }
   @media only screen and (max-width: 1200px) {
-    /* line 143, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+    /* line 145, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
     .projectSpotlightCard {
       padding-left: 0px;
       padding-right: 0px; } }
 
-/* line 152, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 154, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .slick-next {
   position: absolute;
   top: 250px;
@@ -5270,11 +5273,11 @@ footer {
   width: 50px;
   opacity: 0.5;
   font-size: 30px; }
-  /* line 162, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 164, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .slick-next:hover {
     opacity: 1; }
 
-/* line 166, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 168, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .slick-prev {
   position: absolute;
   top: 250px;
@@ -5285,75 +5288,75 @@ footer {
   width: 50px;
   opacity: 0.5;
   font-size: 30px; }
-  /* line 176, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 178, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .slick-prev:hover {
     opacity: 1; }
 
-/* line 180, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 182, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .slick-slide {
   margin: 0 20px; }
 
-/* line 184, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 186, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .tileImage {
   height: 600px; }
   @media only screen and (max-width: 768px) {
-    /* line 184, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+    /* line 186, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
     .tileImage {
       height: 300px; } }
 
-/* line 190, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 192, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .tileImageIndex {
   height: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
-  /* line 195, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 197, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image1 {
     background-image: url("./Assets/Photos/DFA_SallyRyan_Day1_83.jpg"); }
-  /* line 198, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 200, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image2 {
     background-image: url(./Assets/Photos/liz-gerber_orig.jpg); }
-  /* line 201, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 203, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image3 {
     background-image: url(./Assets/Photos/20170805_DFA_JWW3253.jpg); }
-  /* line 204, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 206, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image4 {
     background-image: url("./Assets/Photos/DFA_SallyRyan_Day2_049.jpg"); }
-  /* line 207, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 209, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image5 {
     background-image: url("./Assets/Photos/20170805_DFA_JWW3332.jpg"); }
-  /* line 210, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 212, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image6 {
     background-image: url("./Assets/Photos/IMG_8546.JPG"); }
-  /* line 213, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 215, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image7 {
     background-image: url("./Assets/Photos/DSC_7358.JPG"); }
-  /* line 216, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 218, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image8 {
     background-image: url("./Assets/Photos/DSC_8682.JPG"); }
-  /* line 219, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 221, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image9 {
     background-image: url("./Assets/Photos/IMG_0553.JPG"); }
-  /* line 222, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 224, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image10 {
     background-image: url("./Assets/Photos/IMG_9154.JPG"); }
-  /* line 225, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 227, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image11 {
     background-image: url("./Assets/Photos/IMG_20170803_194739221.jpg"); }
-  /* line 228, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 230, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image12 {
     background-image: url("./Assets/Photos/IMG_9199.JPG"); }
-  /* line 231, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 233, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image13 {
     background-image: url("./Assets/Photos/IMG_9650.jpg"); }
-  /* line 234, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 236, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image14 {
     background-image: url("./Assets/Photos/IMG_20180225_115446767_HDR.jpg"); }
-  /* line 237, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 239, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .tileImageIndex.image15 {
     background-image: url("./Assets/Photos/IMG_3206.JPG"); }
 
-/* line 241, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 243, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .sectionSideImage {
   position: relative;
   height: 100%;
@@ -5361,31 +5364,31 @@ footer {
   background-position: center;
   background-size: cover; }
 
-/* line 249, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 251, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .personProfile {
   height: 100%; }
-  /* line 251, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+  /* line 253, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
   .personProfile img {
     border-radius: 5px; }
 
-/* line 256, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 258, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 #tab_container .container_item {
   display: none; }
 
-/* line 260, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 262, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 #tab_container .container_item.is-active {
   display: block; }
 
-/* line 263, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 265, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 .membersTools {
   background-color: #f4f4f4; }
 
-/* line 266, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+/* line 268, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
 #calendarBig {
   padding-left: 250px;
   padding-right: 250px; }
   @media only screen and (max-width: 1024px) {
-    /* line 266, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+    /* line 268, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
     #calendarBig {
       padding-left: 0px;
       padding-right: 0px; } }
