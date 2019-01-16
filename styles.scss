@@ -263,3 +263,11 @@ footer {
 .membersTools {
     background-color: rgb(244,244,244);
 }
+#calendarBig {
+    padding-left: 250px;
+    padding-right: 250px;
+    @media only screen and (max-width: 1024px) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

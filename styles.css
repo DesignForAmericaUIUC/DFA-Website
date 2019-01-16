@@ -5380,4 +5380,14 @@ footer {
 .membersTools {
   background-color: #f4f4f4; }
 
+/* line 266, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+#calendarBig {
+  padding-left: 250px;
+  padding-right: 250px; }
+  @media only screen and (max-width: 1024px) {
+    /* line 266, /Users/ForestLam/Downloads/DFAWeb3/styles.scss */
+    #calendarBig {
+      padding-left: 0px;
+      padding-right: 0px; } }
+
 /*# sourceMappingURL=styles.css.map */
