@@ -44,9 +44,9 @@ html,body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
-    overflow-y: scroll; /* has to be scroll, not auto */
-    -webkit-overflow-scrolling: touch;
+    /*overflow-x: hidden;
+    overflow-y: scroll;  has to be scroll, not auto 
+    -webkit-overflow-scrolling: touch;*/
 }
 .container {
     @media only screen and (max-width: 1087px) {
@@ -194,6 +194,10 @@ footer {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
     &.image1 {
         background-image: url("./Assets/Photos/DFA_SallyRyan_Day1_83.jpg");
     }
