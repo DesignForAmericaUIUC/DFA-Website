@@ -17,88 +17,6 @@
     <!--<link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />-->
     <!--Calendar (FullCalendar)-->
     <link rel="stylesheet" href="./fullcalendar-3.10.0/fullcalendar.min.css" />
-    
-    <!--Scripts-->
-    <!--Font Awesome-->
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <!--Main Scripts-->
-    <script src="script.js"></script>
-    <!--jQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!--Modal Animations (bulma-modal-fx)-->
-    <!--<script type="text/javascript" src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>-->
-    <!--Calendar (FullCalendar)-->
-    <script src="./fullcalendar-3.10.0/fullcalendar.min.js"></script>
-    <script src="./fullcalendar-3.10.0/lib/moment.min.js"></script>
-    <script src="./fullcalendar-3.10.0/lib/jquery.min.js"></script>
-    <script src="./fullcalendar-3.10.0/fullcalendar.min.js"></script>
-    <script type='text/javascript' src='./fullcalendar-3.10.0/gcal.min.js'></script>
-    <!--Load FullCalendar-->
-    <script>
-        $(function() {
-
-        // page is now ready, initialize the calendar...
-
-            $('#calendar').fullCalendar({
-                // put your options and callbacks here
-                defaultView: 'listMonth',
-                header: false,
-                googleCalendarApiKey: 'AIzaSyA_hf_r57u0fxXBpJpxtUFwm3OIP7Ul0eY',
-                events: {
-                    googleCalendarId: 'designforamerica.com_fs6lojvtqvf0sa9212kcqj7210@group.calendar.google.com'
-                }
-            })
-        });
-    </script>  
-    <!--Carousel (Slick) //Must place Slick scripts after FullCalendar scripts!-->
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <!--Slick Carousel Settings-->
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('.mycarousel').slick({
-                arrows: true,
-                dots: false,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                centerMode: true,
-                centerPadding: '300px',
-                prevArrow: '<a class="button slick-prev"><i class="fas fa-arrow-circle-left"></i></a>',
-                nextArrow: '<a class="button slick-next"><i class="fas fa-arrow-circle-right"></i></a>',
-                responsive: [
-                    {
-                        breakpoint: 1024,
-                        settings: {
-                            centerPadding: '150px',
-                        }
-                    },
-                    {
-                        breakpoint: 769,
-                        settings: {
-                        centerPadding: '50px',
-                            arrows: false,
-                        }
-                    }
-                ]
-            });
-        });
-    </script>
-    <!--Load Slick Carousel-->
-    <script>
-        $(document).ready(function(){
-            var carousels = bulmaCarousel.attach(); // carousels now contains an array of all Carousel instances
-         });
-    </script> 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129806224-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-129806224-1');
-    </script>
 </head>
 <body>
     <nav class="navbar is-transparent is-fixed">
@@ -408,7 +326,87 @@
         </div>
     </section>
 
-    
+    <!--Scripts-->
+    <!--Font Awesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!--Main Scripts-->
+    <script src="script.js"></script>
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--Modal Animations (bulma-modal-fx)-->
+    <!--<script type="text/javascript" src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>-->
+    <!--Calendar (FullCalendar)-->
+    <script src="./fullcalendar-3.10.0/fullcalendar.min.js"></script>
+    <script src="./fullcalendar-3.10.0/lib/moment.min.js"></script>
+    <script src="./fullcalendar-3.10.0/lib/jquery.min.js"></script>
+    <script src="./fullcalendar-3.10.0/fullcalendar.min.js"></script>
+    <script type='text/javascript' src='./fullcalendar-3.10.0/gcal.min.js'></script>
+    <!--Load FullCalendar-->
+    <script>
+        $(function() {
+
+        // page is now ready, initialize the calendar...
+
+            $('#calendar').fullCalendar({
+                // put your options and callbacks here
+                defaultView: 'listMonth',
+                header: false,
+                googleCalendarApiKey: 'AIzaSyA_hf_r57u0fxXBpJpxtUFwm3OIP7Ul0eY',
+                events: {
+                    googleCalendarId: 'designforamerica.com_fs6lojvtqvf0sa9212kcqj7210@group.calendar.google.com'
+                }
+            })
+        });
+    </script>  
+    <!--Carousel (Slick) //Must place Slick scripts after FullCalendar scripts!-->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!--Slick Carousel Settings-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.mycarousel').slick({
+                arrows: true,
+                dots: false,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: '300px',
+                prevArrow: '<a class="button slick-prev"><i class="fas fa-arrow-circle-left"></i></a>',
+                nextArrow: '<a class="button slick-next"><i class="fas fa-arrow-circle-right"></i></a>',
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            centerPadding: '150px',
+                        }
+                    },
+                    {
+                        breakpoint: 769,
+                        settings: {
+                        centerPadding: '50px',
+                            arrows: false,
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+    <!--Load Slick Carousel-->
+    <script>
+        $(document).ready(function(){
+            var carousels = bulmaCarousel.attach(); // carousels now contains an array of all Carousel instances
+         });
+    </script> 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129806224-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-129806224-1');
+    </script>
 </body>  
 <footer class="has-text-centered has-text-primary">
     <table style="width:100%; margin-top: 0px; margin-bottom: 0px">
