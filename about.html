@@ -5,22 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="./Assets/fonts.css">
-    
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <script src="script.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129806224-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-129806224-1');
-    </script>
+    <!--Bulma (0.7.2) Framework-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+    <!--Main Styles-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--Fonts-->
+    <link rel="stylesheet" href="./Assets/fonts.css" />
+    <!--Carousel (Slick)-->
+    <!--<link rel="stylesheet" type="text/css" href="slick/slick.css" /> //Don't need on this page-->
+    <!--Modal Animations (bulma-modal-fx)-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 </head>
 <body>
     <nav class="navbar is-transparent">
@@ -180,6 +174,20 @@
                         <br>
                         <h1 class="title is-primary is-size-5">Lucas O'Bryan</h1>
                         <h1 class="subtitle is-primary is-size-6">President</h1>
+                        <a class="is-size-6 modal-button" data-target="modal-about-Lucas">About Lucas  <i class="fas fa-chevron-right"></i></a>
+                        <div id="modal-about-Lucas" class="modal modal-fx-slideBottom">
+                            <div class="modal-background"></div>
+                            <div class="modal-content">
+                                <!-- content -->
+                                <div class="box">
+                                Lucas joined DFA in fall of 2016 and is now serving as the President the UIUC studio. In this position he guides the long term vision of the studio and works with studio mentors to ensure the organization runs smoothly. He is currently studying Material Science and Engineering. In addition to DFA, Lucas is an intern for the Siebel Center for Design and active member of Student Alumni Ambassadors. 
+
+                                Lucas is passionate about how human centered design can be leveraged to design more compassionate social services. He hopes to one day work for the City of Chicago, tackling issues in housing and education. When he’s not working on helping run the studio, you can find him listening to an episode of 99% Invisible or munching on a Chipotle burrito.
+                                </div>
+                                <!-- end content -->
+                            </div>
+                            <button class="modal-close is-large" aria-label="close"></button>
+                        </div>
                     </div>
                 </div>
                 <div class="column is-one-third">
@@ -190,6 +198,20 @@
                         <br>
                         <h1 class="title is-primary is-size-5">Kirtan Patel</h1>
                         <h1 class="subtitle is-primary is-size-6">Vice President of Operations</h1>
+                        <a class="is-size-6 modal-button" data-target="modal-about-Kirtan">About Kirtan  <i class="fas fa-chevron-right"></i></a>
+                        <div id="modal-about-Kirtan" class="modal modal-fx-slideBottom">
+                            <div class="modal-background"></div>
+                            <div class="modal-content">
+                                <!-- content -->
+                                <div class="box">
+                                Kirtan joined DFA in Spring 2017. He is a senior studying in Chemical Engineering and a minor in Business. He is currently serving as Vice President of Operations at the UIUC studio. What initially drew Kirtan into design thinking was his passion for helping others and love for designing user-centered products. He plans to use his newfound skills in DFA at a consumer products company. 
+
+                                When not running the daily operations of DFA at UIUC, Kirtan is usually spending time either rooting for Chicago and Illini sports team, working out at the local gym or catching up on his favorite TV show. Fun fact: He broke his arm as a child by dropping a TV on it.
+                                </div>
+                                <!-- end content -->
+                            </div>
+                            <button class="modal-close is-large" aria-label="close"></button>
+                        </div>
                     </div>
                 </div>
                 <div class="column is-one-third">
@@ -200,6 +222,18 @@
                         <br>
                         <h1 class="title is-primary is-size-5">Jane Chun</h1>
                         <h1 class="subtitle is-primary is-size-6">Vice President of Marketing</h1>
+                        <a class="is-size-6 modal-button" data-target="modal-about-Jane">About Jane  <i class="fas fa-chevron-right"></i></a>
+                        <div id="modal-about-Jane" class="modal modal-fx-slideBottom">
+                            <div class="modal-background"></div>
+                            <div class="modal-content">
+                                <!-- content -->
+                                <div class="box">
+                                Jane joined DFA in Spring 2018 and is now serving as the Vice President of Marketing. She is a sophomore in Graphic Design with a minor in Informatics. By the end of her college career, she hopes to be with a design firm or a big corporation to do brand design or change her focus to work more in human-centered design. What initially drew her to DFA was the word design, but what made her stay was the amazing people and new experiences in design thinking/HCD. The new experiences have given her depth as a designer but more importantly, as a person. When not with DFA, she bakes and cooks while also either designing/collecting stickers.
+                                </div>
+                                <!-- end content -->
+                            </div>
+                            <button class="modal-close is-large" aria-label="close"></button>
+                        </div>
                     </div>
                 </div>
                 <div class="column is-one-third">
@@ -210,6 +244,18 @@
                         <br>
                         <h1 class="title is-primary is-size-5">Forest Lam</h1>
                         <h1 class="subtitle is-primary is-size-6">Vice President of Professional Outreach</h1>
+                        <a class="is-size-6 modal-button" data-target="modal-about-Forest">About Forest  <i class="fas fa-chevron-right"></i></a>
+                        <div id="modal-about-Forest" class="modal modal-fx-slideBottom">
+                            <div class="modal-background"></div>
+                            <div class="modal-content">
+                                <!-- content -->
+                                <div class="box">
+                                Forest joined DFA in Fall 2017 as a sophomore studying Civil and Environmental Engineering with a primary in Construction Management and a secondary in Structural/Transportation. He currently serves as Vice President of Professional Outreach of the UIUC studio. He aims to leverage design-thinking throughout his career, working with innovative technologies in engineering our built environment. As a southern California native, he will be studying abroad next semester and intends to work internationally in the future.
+                                </div>
+                                <!-- end content -->
+                            </div>
+                            <button class="modal-close is-large" aria-label="close"></button>
+                        </div>
                     </div>
                 </div>
                 <div class="column is-one-third">
@@ -220,6 +266,20 @@
                         <br>
                         <h1 class="title is-primary is-size-5">Angela Chan</h1>
                         <h1 class="subtitle is-primary is-size-6">Managing Director</h1>
+                        <a class="is-size-6 modal-button" data-target="modal-about-Angela">About Angela  <i class="fas fa-chevron-right"></i></a>
+                        <div id="modal-about-Angela" class="modal modal-fx-slideBottom">
+                            <div class="modal-background"></div>
+                            <div class="modal-content">
+                                <!-- content -->
+                                <div class="box">
+                                Angela joined DFA right as she stepped foot on campus her freshman year and is now a sophomore studying Systems Engineering and Design. By retirement, she aspires to build something big and impactful on her community, and hopes to meet insanely cool people along the way. On campus, she’s secretary for Society of Women Engineer’s Team Tech and enjoys being a graphic designer for the Engineering Pathways program. Next year, she will be teaching design thinking as an ELA for the Siebel Center for Design.
+
+                                A native northern Californian, Angela obsesses over good Asian, Mediterranean, and Latin food and will shut anyone down who calls boba “bubble tea.” She loves candid and landscape photography, reading thrillers or cute romance comics on Webtoons, and spending too much time trying to organize.
+                                </div>
+                                <!-- end content -->
+                            </div>
+                            <button class="modal-close is-large" aria-label="close"></button>
+                        </div>
                     </div>
                 </div>
                 <div class="column is-one-third">
@@ -230,6 +290,20 @@
                         <br>
                         <h1 class="title is-primary is-size-5">Aayushi Patel</h1>
                         <h1 class="subtitle is-primary is-size-6">Vice President of Marketing</h1>
+                        <a class="is-size-6 modal-button" data-target="modal-about-Aayushi">About Aayushi  <i class="fas fa-chevron-right"></i></a>
+                        <div id="modal-about-Aayushi" class="modal modal-fx-slideBottom">
+                            <div class="modal-background"></div>
+                            <div class="modal-content">
+                                <!-- content -->
+                                <div class="box">
+                                Aayushi joined DFA Spring 2017 and now serves as the VP of Membership for the organization. She is a junior in Molecular and Cellular Biology and aspires to be a surgeon one day. She joined DFA as she wanted to make a positive impact in her community as well as to quench her personal and professional goals. Few of the social challenges that she is passionate about are quality education, gender equality, and reduced inequalities(especially in healthcare).  
+
+                                As a Pre-med student, Aayushi believes that human-centered design is cross-sectional and can be applied to any field. When she is not busy studying or writing grants, you can find her baking and/or binge watching Netflix.
+                                </div>
+                                <!-- end content -->
+                            </div>
+                            <button class="modal-close is-large" aria-label="close"></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -411,38 +485,27 @@
             </div>
         </div>
     </section>
+    
+    
+    <!--Scripts-->
+    <!--Font Awesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!--Main Scripts-->
+    <script src="script.js"></script>
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--Carousel (Slick)-->
+    <!--<script type="text/javascript" src="slick/slick.min.js"></script> //Commented out to speed up load times-->
+    <!--Modal Animations (bulma-modal-fx)-->
+    <script type="text/javascript" src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129806224-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script> 
-    <script type="text/javascript" src="slick/slick.min.js"></script>  
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('.mycarousel').slick({
-                arrows: false,
-                dots: false,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                centerMode: true,
-                centerPadding: '300px',
-                prevArrow: '<a class="button slick-prev"><i class="fas fa-arrow-circle-left"></i></a>',
-                nextArrow: '<a class="button slick-next"><i class="fas fa-arrow-circle-right"></i></a>',
-                responsive: [
-                    {
-                        breakpoint: 1024,
-                        settings: {
-                            centerPadding: '50px',
-                        }
-                    },
-                    {
-                        breakpoint: 769,
-                        settings: {
-                            centerPadding: '50px',
-                        }
-                    }
-                ]
-            });
-        });
+        gtag('config', 'UA-129806224-1');
     </script>
 </body>
 <footer class="has-text-centered has-text-primary">

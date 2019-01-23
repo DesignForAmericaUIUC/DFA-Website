@@ -5,39 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-    
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="./Assets/fonts.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.1/bulma-carousel/dist/css/bulma-carousel.min.css">
-    
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.1/bulma-carousel/dist/js/bulma-carousel.min.js"></script>
-    <script src="script.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('#tab_header ul li.item').on('click', function() {
-            var number = $(this).data('option');
-            $('#tab_header ul li.item').removeClass('is-active');
-            $(this).addClass('is-active');
-            $('#tab_container .container_item').removeClass('is-active');
-            $('div[data-item="' + number + '"]').addClass('is-active');
-            });
-        });
-    </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129806224-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-129806224-1');
-    </script>
+    <!--Bulma (0.7.2) Framework-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+    <!--Main Styles-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--Fonts-->
+    <link rel="stylesheet" href="./Assets/fonts.css" />
+    <!--Carousel (Slick)-->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <!--Modal Animations (bulma-modal-fx)-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+    <!--Carousel (Bulma-Extensions)-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.1/bulma-carousel/dist/css/bulma-carousel.min.css" />
 </head>
 <body>
     <nav class="navbar is-transparent">
@@ -1239,8 +1218,21 @@
         </div>
     </section>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script> 
+    
+    <!--Scripts-->
+    <!--Font Awesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!--Main Scripts-->
+    <script src="script.js"></script>
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--Modal Animations (bulma-modal-fx)-->
+    <!--<script type="text/javascript" src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script> //Don't need this on this page-->
+    <!--Carousel (Bulma-Extensions)-->
+    <script src="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.1/bulma-carousel/dist/js/bulma-carousel.min.js"></script>
+    <!--Carousel (Slick)-->
     <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!--Slick Carousel Settings-->
     <script type="text/javascript">
         $(document).ready(function(){
             $('.mycarousel').slick({
@@ -1256,25 +1248,48 @@
                 nextArrow: '<a class="button slick-next"><i class="fas fa-arrow-circle-right"></i></a>',
                 responsive: [
                     {
-                    breakpoint: 1024,
-                    settings: {
-                        centerPadding: '150px',
+                        breakpoint: 1024,
+                        settings: {
+                            centerPadding: '150px',
                         }
                     },
                     {
                         breakpoint: 769,
                         settings: {
-                            centerPadding: '50px',
+                        centerPadding: '50px',
+                            arrows: false,
                         }
                     }
                 ]
             });
         });
     </script>
+    <!--Load Slick Carousel-->
     <script>
         $(document).ready(function(){
             var carousels = bulmaCarousel.attach(); // carousels now contains an array of all Carousel instances
          });
+    </script>
+    <!--Tabs (Project Archive)-->
+    <script>
+        $(document).ready(function() {
+            $('#tab_header ul li.item').on('click', function() {
+            var number = $(this).data('option');
+            $('#tab_header ul li.item').removeClass('is-active');
+            $(this).addClass('is-active');
+            $('#tab_container .container_item').removeClass('is-active');
+            $('div[data-item="' + number + '"]').addClass('is-active');
+            });
+        });
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129806224-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-129806224-1');
     </script>
 </body>
 <footer class="has-text-centered has-text-primary">
